@@ -6,7 +6,6 @@ using System.Collections.Generic;
 
 class Program
 {
-    // erwartet nur Ziffern in 'digits'
     static string MaxSubsequence(string digits, int k)
     {
         int n = digits.Length;
