@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Threading; 
 
 namespace day5
 {
@@ -109,6 +110,7 @@ namespace day5
             total += max - min + 1;
 
             Console.WriteLine(total);
-            }
+            Console.ReadKey();
+        }
     }
 }
